@@ -2,5 +2,6 @@ version=1
 id=2724264787
 title=Currency Variety Mod Expanded
 description=Addon for Currency Variety Mod
+description=Thumbnail art by CircaTheFuture#0729
 tags=Build 41;Items;Multiplayer
 visibility=public
