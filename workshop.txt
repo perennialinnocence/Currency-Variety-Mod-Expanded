@@ -1,0 +1,6 @@
+version=1
+id=2724264787
+title=Currency Variety Mod Expanded
+description=Addon for Currency Variety Mod
+tags=Build 41;Items;Multiplayer
+visibility=public
