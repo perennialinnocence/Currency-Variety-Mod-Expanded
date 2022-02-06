@@ -1,24 +1,9 @@
-function give49Gems(items, result, player)
-    player:getInventory():AddItems("GemScrap",49)
-end
-function give1GoldBar(items, result, player)
-    player:getInventory():AddItem("GoldBar")
-end
 function give1SilverBar(items, result, player)
     player:getInventory():AddItem("SilverBar")
-end
-function give3GoldBar(items, result, player)
-    player:getInventory():AddItems("GoldBar",3)
 end
 function give2Gold1SilverBar(items, result, player)
     player:getInventory():AddItems("GoldBar",2)
     player:getInventory():AddItem("SilverBar")
-end
-function give74Gems(items, result, player)
-    player:getInventory():AddItems("GemScrap",74)
-end
-function give24Gems(items, result, player)
-    player:getInventory():AddItems("GemScrap",24)
 end
 function getItemTypesForSellingBulletBox(scriptItems)
     local allScriptItems = getScriptManager():getAllItems();

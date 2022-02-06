@@ -9,20 +9,18 @@ module MoneyVarietyExpanded
        [getItemTypesForSellingBulletBox],
        keep WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/HamRadioMakeShift,
 
-       Result:GemScrap,
+       Result:GemScrap=25,
        Time:10.0,
-       Category:Survivalist,
-       OnCreate:give24Gems,
+       Category:Trading,
   }
   recipe Sell Any Military Clothing for 75 Gems
   {
        [getItemTypesForSellingMilitaryClothing],
        keep WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/HamRadioMakeShift,
 
-       Result:GemScrap,
+       Result:GemScrap=75,
        Time:10.0,
-       Category:Survivalist,
-       OnCreate:give74Gems,
+       Category:Trading,
   }
   recipe Sell Handgun for 1 Gold Bar and 1 Silver Bar
   {
@@ -31,7 +29,7 @@ module MoneyVarietyExpanded
 
        Result:GoldBar,
        Time:10.0,
-       Category:Survivalist,
+       Category:Trading,
        OnCreate:give1SilverBar,
   }
   recipe Sell MSR Rifle for 3 Gold Bars and 1 Silver Bar
@@ -41,7 +39,7 @@ module MoneyVarietyExpanded
 
        Result:GoldBar,
        Time:10.0,
-       Category:Survivalist,
+       Category:Trading,
        OnCreate:give2Gold1SilverBar,
   }
   recipe Sell Military Rifle for 4 Gold Bars
@@ -49,10 +47,9 @@ module MoneyVarietyExpanded
        AssaultRifle/AssaultRifle2,
        keep WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/HamRadioMakeShift,
 
-       Result:GoldBar,
+       Result:GoldBar=4,
        Time:10.0,
-       Category:Survivalist,
-       OnCreate:give3GoldBar,
+       Category:Trading,
   }
   recipe Recycle Trash for 1 Gem
   {
@@ -61,37 +58,34 @@ module MoneyVarietyExpanded
 
        Result:GemScrap,
        Time:0.5,
-       Category:Survivalist,
+       Category:Trading,
   }
   recipe Sell Generator for 4 Gold Bars
   {
        Generator,
        keep WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/HamRadioMakeShift,
 
-       Result:GoldBar,
+       Result:GoldBar=4,
        Time:10.0,
-       Category:Survivalist,
-       OnCreate:give3GoldBar,
+       Category:Trading,
   }
   recipe Sell Tool for 50 Gems
   {
        Saw/Hammer/Screwdriver/Wrench/LugWrench/BlowTorch,
        keep WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/HamRadioMakeShift,
 
-       Result:GemScrap,
+       Result:GemScrap=50,
        Time:10.0,
-       Category:Survivalist,
-       OnCreate:give49Gems,
+       Category:Trading,
   }
   recipe Sell Shotgun for 2 Gold Bars
   {
        [getItemTypesForSellingShotgun],
        keep WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/HamRadioMakeShift,
 
-       Result:GoldBar,
+       Result:GoldBar=2,
        Time:10.0,
-       Category:Survivalist,
-       OnCreate:give1GoldBar,
+       Category:Trading,
   }
   recipe Sell Vehicle Part for 1 Gem
   {
@@ -100,7 +94,7 @@ module MoneyVarietyExpanded
 
        Result:GemScrap,
        Time:10.0,
-       Category:Survivalist,
+       Category:Trading,
        CanBeDoneFromFloor:true,
   }
 }

@@ -1,4 +1,4 @@
-version=1
+version=2
 id=2724264787
 title=Currency Variety Mod Expanded
 description=Addon for Currency Variety Mod, Adding new recipes to buy more vanilla items and sell many Vanilla Items for currency. With future separate installments for a good few mods with help from the Man himself Jonhalo! Creator of original mod.
